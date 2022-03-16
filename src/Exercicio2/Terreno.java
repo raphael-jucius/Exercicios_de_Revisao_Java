@@ -18,10 +18,14 @@ public class Terreno {
 
     public static void setAltura(int altura) {
         Altura = altura;
+        if (altura > 0);
+        else System.out.println("A altura tem que ser maior que 0!");
     }
 
     public static void setLado(int lado) {
         Lado = lado;
+        if (lado > 0);
+        else System.out.println("O lado tem que ser maior que 0!");
     }
 }
 
